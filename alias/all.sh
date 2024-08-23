@@ -14,4 +14,6 @@ alias dm="docker run --workdir /data -ti --rm -v /Users/liyang/Data/mysql/:/data
 alias kc="kubectl"
 
 #alias work="tmuxOpenWork work /Users/liyang/projects/nancal/release-center/release-packaging-platform-java"
-alias work="sh ~/.my/func/tmuxWork.sh work /Users/liyang/projects/nancal/release-center/release-packaging-platform-java"
+alias rc="sh ~/.my/func/tmuxWork.sh work /Users/liyang/projects/nancal/release-center/release-packaging-platform-java"
+
+alias code="sh ~/.my/func/tmux_code.sh"
