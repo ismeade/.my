@@ -19,9 +19,10 @@ while IFS= read -r line; do
 done <<< "$(tmux ls -F\#S 2> /dev/null)"
 
 hasGit=0
-if [ -d ".git" ]; then
-  hasGit=1
-fi
+# 判断是否有个.git
+# if [ -d ".git" ]; then
+#   hasGit=1
+# fi
 
 if [ $hasWork == 0 ]; then
     echo "创建session" ${session_name}
